@@ -1,4 +1,4 @@
-﻿Build started 10/9/2016 2:57:08 PM.
+﻿Build started 10/10/2016 2:17:07 PM.
 Project "C:\download\GitHub\TestMongCDriver\TestMongCDriver\TestMongCDriver.vcxproj" on node 2 (build target(s)).
 InitializeBuildStatus:
   Creating "x64\Debug\TestMongCDriver.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -9,6 +9,7 @@ ClCompile:
 Link:
   c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\download\GitHub\TestMongCDriver\x64\Debug\TestMongCDriver.exe" /NOLOGO /LIBPATH:"C:\mongo-c-driver\lib" "bson-1.0.lib" "mongoc-1.0.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\TestMongCDriver.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\download\GitHub\TestMongCDriver\x64\Debug\TestMongCDriver.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\download\GitHub\TestMongCDriver\x64\Debug\TestMongCDriver.lib" /MACHINE:X64 x64\Debug\connect.obj
   x64\Debug\MyMongoClient.obj
+  x64\Debug\testMain.obj
   LINK : C:\download\GitHub\TestMongCDriver\x64\Debug\TestMongCDriver.exe not found or not built by the last incremental link; performing full link
   TestMongCDriver.vcxproj -> C:\download\GitHub\TestMongCDriver\x64\Debug\TestMongCDriver.exe
 Manifest:
@@ -20,4 +21,4 @@ Done Building Project "C:\download\GitHub\TestMongCDriver\TestMongCDriver\TestMo
 
 Build succeeded.
 
-Time Elapsed 00:00:02.85
+Time Elapsed 00:00:01.63

@@ -115,6 +115,7 @@
   <ItemGroup>
     <ClCompile Include="connect.c" />
     <ClCompile Include="MyMongoClient.cpp" />
+    <ClCompile Include="testMain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyMongoClient.h" />
